@@ -13,7 +13,7 @@ namespace Data_Access.Concrete.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"server=MUSTAFA;database=BlogDB;integrated security=true;");
+            optionsBuilder.UseSqlServer(@"server=MUSTAFA;database=BlogDB;Trusted_Connection=True;TrustServerCertificate=True");
         }
 
         public DbSet<About> Abouts { get; set; }
