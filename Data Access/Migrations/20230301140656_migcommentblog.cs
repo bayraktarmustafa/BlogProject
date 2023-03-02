@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Data_Access.Migrations
+namespace DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class migcommentblog : Migration

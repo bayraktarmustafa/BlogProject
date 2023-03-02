@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogProject", "BlogProject\BlogProject.csproj", "{BB0C0900-7C49-411C-811F-3A632DD8DA2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogProject", "BlogProject\BlogProject.csproj", "{BB0C0900-7C49-411C-811F-3A632DD8DA2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{34A76798-8729-44AC-8002-1F626880B695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{34A76798-8729-44AC-8002-1F626880B695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Access", "Data Access\Data Access.csproj", "{AC9FCACB-6C9D-4AEA-B61E-469E62A40C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "Data Access\DataAccess.csproj", "{AC9FCACB-6C9D-4AEA-B61E-469E62A40C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{4E9A38F6-F6A8-497E-9E6A-8287218E9B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{4E9A38F6-F6A8-497E-9E6A-8287218E9B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{FDCC0DB7-9FD7-42DB-A57F-B6AF17E8E196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{FDCC0DB7-9FD7-42DB-A57F-B6AF17E8E196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

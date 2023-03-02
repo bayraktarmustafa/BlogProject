@@ -2,12 +2,12 @@
 
 #nullable disable
 
-namespace Data_Access.Migrations
+namespace DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class migbc : Migration
     {
-        /// <inheritdoc />
+        /// <inheritdoc /
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<int>(
