@@ -43,6 +43,11 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
+        public List<Blog> GetBlogById(int id)
+        {
+	        return _blogDal.GetAll(x => x.BlogID == id);
+        }
+
         public List<Blog> GetBlogListWithCategory()
         {
             return _blogDal.GetListWithCategory();
